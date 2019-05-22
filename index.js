@@ -28,7 +28,7 @@ function currentLine(curline) {
   // pretty sure you could use join method in some fashion
   else {
     str += ':';
-    for (i = 1; i <= curline.length; i++) {
+    for (var i = 1; i <= curline.length; i++) {
       str += ' ' + i + '. ' + curline[i-1] + ',';
     }
   }
