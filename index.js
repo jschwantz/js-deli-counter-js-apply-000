@@ -26,7 +26,10 @@ function currentLine(curline) {
     return str + ' empty.';
   }
   else {
-    str += ': '
-    for ()
+    str += ':'
+    for (i = 1; i <= curline.length; i++) {
+      str += ' ' + i + '. ' + curline[i-1] + ',';
+    }
   }
+  return str.
 }
