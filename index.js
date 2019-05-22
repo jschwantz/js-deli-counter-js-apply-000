@@ -26,6 +26,7 @@ function currentLine(curline) {
     return str + ' empty.';
   }
   else {
-    return 
+    str += ': '
+    for ()
   }
 }
