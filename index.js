@@ -7,8 +7,13 @@ function takeANumber(curline, person) {
 
 function nowServing( katzDeliLine ) {
   
-  var serve = katzDeliLine[0];
+  if (katzDeliLine.length === 0) {
+    return 'There is nobody waiting to be served!';
+  }
   
+  var serve = katzDeliLine[0];
   katzDeliLine.shift();
+  
+  return serve;
   
 }
