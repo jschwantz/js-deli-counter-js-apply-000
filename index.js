@@ -32,5 +32,5 @@ function currentLine(curline) {
       str += ' ' + i + '. ' + curline[i-1] + ',';
     }
   }
-  return string.substr(0)
+  return string.substr(0,string.length-1)
 }
