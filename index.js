@@ -25,6 +25,7 @@ function currentLine(curline) {
   if (curline.length === 0) {
     return str + ' empty.';
   }
+  // pretty sure you could use join method in some fashion
   else {
     str += ':'
     for (i = 1; i <= curline.length; i++) {
