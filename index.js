@@ -31,7 +31,7 @@ function currentLine(curline) {
 //    for (var i = 1, j = curline.length; i <= j; i++) {
 //      str += ' ' + i + '. ' + curline[i-1] + ',';
 //    }
-
+    curline.forEach()
   }
   return str.substr(0,str.length-1);
 }
